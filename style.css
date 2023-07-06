@@ -1,0 +1,92 @@
+
+
+.navbar {
+    background-color: #F3F9FD;
+}
+
+.navbar-container {
+    margin-right: 48px;
+    margin-left: 48px;
+}
+
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-right: 151px;
+
+
+}
+
+
+.navbar-brand {
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+
+.site-logo {
+    transform: translateY(-2px);
+    padding-inline-end: 6px;  
+}
+
+
+.navbar-collapse {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    color: #121212;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.navbar-button {
+    display: flex;
+    padding: 11px 21px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: #2A5EE4;
+    color: #FFFFFF;
+}
+
+.navbar-nav li.nav-item {
+    margin-right: 50px;
+}
+
+.navbar-nav li:last-child.nav-item {
+    margin-right: 0px;
+}
+
+#hero-overlay {
+    background-color: #F3F9FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-header {
+    color: #121212;
+    font-family: Jost;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-text {
+    color: #12141D;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+}
