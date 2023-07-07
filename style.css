@@ -1,92 +1,176 @@
-
-
 .navbar {
-    background-color: #F3F9FD;
+  background-color: #f3f9fd;
 }
 
-.navbar-container {
-    margin-right: 48px;
-    margin-left: 48px;
+.navbar__container {
+  margin-right: 48px;
+  margin-left: 48px;
 }
 
-.navbar-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 48px;
-    margin-bottom: 48px;
-    margin-right: 151px;
-
-
+.navbar__container-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  margin-right: 151px;
 }
 
-
-.navbar-brand {
-    color: #121212;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    
+.navbar__logo-brand {
+  color: #121212;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
-.site-logo {
-    transform: translateY(-2px);
-    padding-inline-end: 6px;  
+.logo {
+  transform: translateY(-2px);
+  padding-inline-end: 6px;
 }
-
 
 .navbar-collapse {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    color: #121212;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  color: #121212;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
-.navbar-button {
-    display: flex;
-    padding: 11px 21px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-    background: #2A5EE4;
-    color: #FFFFFF;
+.navbar-btn {
+  display: flex;
+  padding: 11px 21px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #2a5ee4;
+  color: #ffffff;
 }
 
-.navbar-nav li.nav-item {
-    margin-right: 50px;
+.navbar-collapse__item {
+  margin-right: 50px;
 }
 
-.navbar-nav li:last-child.nav-item {
-    margin-right: 0px;
+.navbar-collapse__item:last-of-type {
+  margin-right: 0px;
 }
 
-#hero-overlay {
-    background-color: #F3F9FD;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.hero__container {
+  background-color: #f3f9fd;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-header {
-    color: #121212;
-    font-family: Jost;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.hero__col-1 {
+  display: flex;
 }
 
-.hero-text {
-    color: #12141D;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    letter-spacing: -0.5px;
+.hero__col-content {
+  margin: 48px;
+  width: 470px;
+}
+
+.hero__col-header {
+  color: #121212;
+  font-family: Jost;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 388px;
+}
+
+.hero__col-text {
+  color: #12141d;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  margin-top: 15px;
+}
+
+.hero__col-btn {
+  display: flex;
+  width: 196px;
+  height: 57px;
+  padding: 11px 21px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #2a5ee4;
+  color: #ffffff;
+  margin-top: 32px;
+}
+
+.hero-vector-container__vector {
+  margin-top: 48px;
+  margin-right: 16px;
+}
+
+.hero__col-quote {
+  display: flex;
+  width: 451px;
+  flex-direction: column;
+  color: #12141d;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  margin: 28px 0px 28px 0px;
+  width: 451px;
+}
+
+.hero__col-person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 197px;
+  height: 64px;
+}
+
+.hero__col-person-img {
+  border-radius: 51px;
+  background: lightgray 50% / cover no-repeat, #d9d9d9;
+  width: 51px;
+  height: 51px;
+  margin-right: 14px;
+}
+
+.hero__col-person-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 31px;
+  margin: 0px;
+}
+
+.hero__col-person-name {
+  color: #12141d;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  margin: 0px;
+}
+
+.hero__col-person-site {
+  color: #12141d;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  margin: 0px;
+  display: flex;
+  padding-top: 5px;
+  margin-right: 10px;
 }
